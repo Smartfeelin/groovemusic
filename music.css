@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header1 {
+    background: rgb(230, 230, 230);
+    padding: 1px;
+    margin: 5px 10px 20px 10px;
+}
+
+.music #music-side {
+    float: left;
+    width: 20%;
+    background: rgb(230, 230, 230);
+    border: 1px solid rgb(205, 216, 226);
+    padding: 10px 0;
+    min-height: 80vh;
+}
+
+#music-side ul li {
+    padding: 25px;
+    align-items: center;
+    margin: 20px;
+}
+
+#music-side ul {
+    border-bottom: gray solid 1px;
+    margin-right: 30px;
+}
+
+#music-side ul li:hover {
+    background-color: gray;
+}
+
+#music-side ul li {
+    margin: 5px;
+    font-size: 25px;
+    text-align: left;
+}
+
+#music-side #playlist {
+    position: relative;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+#music-side #sign {
+    position: relative;
+    margin-top: 80%;
+    padding: 10px;
+}
+
+#music-center h1 {
+    position: absolute;
+    padding-left: 17%;
+    margin-left: 5%;
+    font: 3em sans-serif;
+}
+
+#music-center {
+    padding: 11px;
+    width: 99%;
+    min-height: 80vh;
+}
+
+#music-center ul {
+    position: absolute;
+    font: 30px sans-serif;
+    display: flex;
+    padding-top: 50px;
+    padding-left: 20%;
+}
+
+#music-center ul li:hover {
+    border-bottom: blue solid 7px;
+}
+
+#music-center ul li {
+    margin: 10px;
+    padding: 10px;
+}
+
+#music-bottom {
+    background: rgb(177, 158, 158);
+    width: 99.9%;
+    min-height: 16vh;
+    overflow: hidden;
+    z-index: 10;
+}
+
+#music-center #centerSetting {
+    position: absolute;
+    left: 22%;
+    margin-top: 5%;
+    border-top: gray solid 1px;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: lighter;
+    font: 1em sans-serif;
+}
+
+#music-center #centerSetting #actionSetting {
+    display: flex;
+    justify-items: center;
+}
+
+#music-center #centerSetting #actionSetting h2 {
+    margin-right: 40px;
+    margin-bottom: 20px;
+}
+
+#cmusic-center {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+tbody {
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    z-index: -20;
+}
+
+caption {
+    margin: 3px;
+    padding: .2em;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: left;
+    color: blue;
+}
+
+th {
+    font-weight: normal;
+    font-style: italic;
+    text-align: left;
+    border: 1px dotted #699;
+    background-color: #9cc;
+    color: #000;
+}
+
+th,
+td {
+    width: 50em;
+    padding: 1.5em;
+    font-weight: normal;
+    font-style: italic;
+    text-align: left;
+    color: #000;
+    z-index: -1;
+}
+
+tr:hover {
+    font-weight: bold;
+    background-color: rgb(230, 230, 230);
+}
+
+body {
+    overflow: hidden;
+}
+
+#music-bottom #pict img {
+    width: 50%;
+    height: 200px;
+    margin-right: 30px;
+}
+
+#music-bottom #pict {
+    display: flex;
+    justify-content: space-between;
+}
+
+#music-bottom {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+#music-bottom #pictside {
+    position: relative;
+    display: flex;
+    float: left;
+}
+
+#music-bottom #pictside h1 {
+    margin-top: 10%;
+    padding: 2px;
+}
+
+#music-bottom .player #buttonView {
+    margin-left: 20%;
+}
+
+#music-bottom .player i {
+    font-size: 30px;
+    padding: 0px;
+    margin-left: 5%;
+    margin-top: 20px;
+    color: white;
+}
+
+#music-bottom .player .fa-circle-play {
+    font-size: 60px;
+}
+
+#music-bottom .player i:hover {
+    color: aliceblue;
+}
+
+#music-bottom .player #range {
+    width: 600px;
+    margin-top: 20px;
+}
+
+#music-bottom #bar {
+    margin: 30px 5% 50px 0;
+    padding: 25px;
+}
+
+#music-bottom #bar .fa-volume-high {
+    color: white;
+    margin-right: 5px;
+}
+
+.music #music-side #playlist {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.music #music-side #sign {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
